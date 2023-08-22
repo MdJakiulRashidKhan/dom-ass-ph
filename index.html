@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/Summer 1.png" type="image/x-icon">
+  <title>Summer Sale</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Work Sans', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="mb-10">
+  <header class="bg-[#F9F6E2]">
+    <div class="container mx-auto">
+      <div class="hero-content flex-col justify-between lg:flex-row-reverse">
+        <img src="/images/Summer 1.png" class="max-w-lg rounded-lg " />
+        <div class="text-center ">
+          <h4 class="text-2xl mb-2">---SALE FEVER---</h4>
+          <h1 class="text-7xl font-black mb-4">Purchase TK 200 or <br> above & get <span class="text-[#E527B2;]">20%
+              off</span></h1>
+          <p class="text-black">Use Promo Code <span class="ml-4 text-white px-5 py-2 bg-[#E527B2]">SELL200</span></p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="bg-[#F8F8F8] pt-12">
+    <div class="md:w-full container mx-auto p-4">
+      <div class="grid grid-cols-12 gap-4">
+        <!-- First Column -->
+        <div class="col-span-full md:col-span-9 lg:col-span-7">
+          <!-- First Row -->
+          <div class=" p-4 mb-4">
+            <!-- Content for the first row, first column -->
+            <h1 class="text-5xl mb-4 font-bold">Kitchenware</h1>
+
+            <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <!--card 1 -->
+              <div id="cardOne" class="card bg-base-100 shadow-xl">
+                <figure class="m-2 bg-[#1111110D] py-3 rounded-lg"><img class=" mt-2" src="/images/prod1.png" />
+                </figure>
+                <div class="card-body">
+                  <!-- rating -->
+                  <div class="rating mx-auto mb-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <!-- rating end  -->
+                  <h4 class="mb-2 text-center font-bold text-2xl" id="productOne">K. Accessories</h4>
+                  <p class=" text-center">
+                    <span id="cardOneText">39.00 </span>TK
+                  </p>
+                </div>
+              </div>
+              <!-- card end  -->
+              <!-- card 2  -->
+              <div id="cardTwo" class="card bg-base-100 shadow-xl">
+                <figure class="m-2 bg-[#1111110D] py-3 rounded-lg"><img class=" mt-2" src="/images/prod2.png" />
+                </figure>
+                <div class="card-body">
+                  <!-- rating -->
+                  <div class="rating mx-auto mb-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <!-- rating end  -->
+                  <h4 class="mb-2 text-center font-bold text-2xl" id="productTwo">K. Accessories</h4>
+                  <p class=" text-center">
+                    <span id="cardTwoText">25.00 </span>TK
+                  </p>
+                </div>
+              </div>
+              <!--  card end  -->
+              <!--  card 3 -->
+              <div id="cardThree" class="card bg-base-100 shadow-xl">
+                <figure class="m-2 bg-[#1111110D] py-3 rounded-lg"><img class=" mt-2" src="/images/prod3.png" />
+                </figure>
+                <div class="card-body">
+                  <!-- rating -->
+                  <div class="rating mx-auto mb-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <!-- rating end  -->
+                  <h4 class="mb-2 text-center font-bold text-2xl" id="productThree">Home Cooker</h4>
+                  <p class=" text-center">
+                    <span id="cardThreeText">49.00 </span>TK
+                  </p>
+                </div>
+              </div>
+              <!-- card end  -->
+            </div>
+
+          </div>
+
+          <!-- Second Row -->
+          <div class=" p-4 mb-4">
+            <!-- Content for the second row, first column -->
+            <h1 class="text-5xl mb-4 font-bold">Sportswear</h1>
+            <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <!--card 4 -->
+              <div id="cardFour" class="card bg-base-100 shadow-xl">
+                <figure class="m-2 bg-[#1111110D] py-3 rounded-lg"><img class=" mt-2" src="/images/prod4.png" />
+                </figure>
+                <div class="card-body">
+                  <!-- rating -->
+                  <div class="rating mx-auto mb-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <!-- rating end  -->
+                  <h4 class="mb-2 text-center font-bold text-2xl" id="sportsOne">Sports Back Cap</h4>
+                  <p class=" text-center">
+                    <span id="cardFourText">49.00 </span>TK
+                  </p>
+                </div>
+              </div>
+              <!-- card end  -->
+              <!-- card 5  -->
+              <div id="cardFive" class="card bg-base-100 shadow-xl">
+                <figure class="m-2 bg-[#1111110D] py-3 rounded-lg"><img class=" mt-2" src="/images/prod5.png" />
+                </figure>
+                <div class="card-body">
+                  <!-- rating -->
+                  <div class="rating mx-auto mb-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <!-- rating end  -->
+                  <h4 class="mb-2 text-center font-bold text-2xl" id="sportsTwo">Full Jersey Set</h4>
+                  <p class=" text-center">
+                    <span id="cardFiveText">69.00 </span>TK
+                  </p>
+                </div>
+              </div>
+              <!--  card end  -->
+              <!--  card 6 -->
+              <div id="cardSix" class="card bg-base-100 shadow-xl">
+                <figure class="m-2 bg-[#1111110D] py-3 rounded-lg"><img class=" mt-2" src="/images/prod6.png" />
+                </figure>
+                <div class="card-body">
+                  <!-- rating -->
+                  <div class="rating mx-auto mb-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <!-- rating end  -->
+                  <h4 class="mb-2 text-center font-bold text-2xl" id="sportsThree">Full Jersey Set</h4>
+                  <p class=" text-center">
+                    <span id="cardSixText">159.00 </span>TK
+                  </p>
+                </div>
+              </div>
+              <!-- card end  -->
+
+            </div>
+          </div>
+
+          <!-- Third Row -->
+          <div class=" p-4 mb-4">
+            <!-- Content for the third row, first column -->
+            <h1 class="text-5xl mb-4 font-bold">Furniture</h1>
+            <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <!--card 7 -->
+              <div id="cardSeven" class="card bg-base-100 shadow-xl">
+                <figure class="m-2 bg-[#1111110D] py-3 rounded-lg"><img class=" mt-2" src="/images/prod7.png" />
+                </figure>
+                <div class="card-body">
+                  <!-- rating -->
+                  <div class="rating mx-auto mb-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <!-- rating end  -->
+                  <h4 class="mb-2 text-center font-bold text-2xl" id="furnitureOne">Single Relax Chair</h4>
+                  <p class=" text-center">
+                    <span id="cardSevenText">185.00 </span>TK
+                  </p>
+                </div>
+              </div>
+              <!-- card end  -->
+              <!-- card 8  -->
+              <div id="cardEight" class="card bg-base-100 shadow-xl">
+                <figure class="m-2 bg-[#1111110D] py-3 rounded-lg"><img class=" mt-2" src="/images/prod8.png" />
+                </figure>
+                <div class="card-body">
+                  <!-- rating -->
+                  <div class="rating mx-auto mb-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <!-- rating end  -->
+                  <h4 class="mb-2 text-center font-bold text-2xl" id="furnitureTwo">Children play</h4>
+                  <p class=" text-center">
+                    <span id="cardEightText">299.00 </span>TK
+                  </p>
+                </div>
+              </div>
+              <!--  card end  -->
+              <!--  card 9 -->
+              <div id="cardNine" class="card bg-base-100 shadow-xl">
+                <figure class="m-2 bg-[#1111110D] py-3 rounded-lg"><img class=" mt-2" src="/images/prod9.png" />
+                </figure>
+                <div class="card-body">
+                  <!-- rating -->
+                  <div class="rating mx-auto mb-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <!-- rating end  -->
+                  <h4 class="mb-2 text-center font-bold text-2xl" id="furnitureThree">Flexible Sofa</h4>
+                  <p class=" text-center">
+                    <span id="cardNineText">399.00 </span>TK
+                  </p>
+                </div>
+              </div>
+              <!-- card end  -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Column -->
+        <div class="col-span-full md:col-span-3 lg:col-span-3  pt-20 mb-4">
+          <!-- Shared content for all three rows in the second column -->
+          <div class=" bg-white p-2">
+            <div class="py-4">
+              <p class="text-xl mb-2">Have coupon?</p>
+              <input type="text" class="border border-b-slate-600 md:w-3/4 md:mb-3 w-2/4 inline" id="inputField">
+              <button disabled class="bg-[#E527B2] px-5 py-2 text-white rounded-lg hover:bg-red-600 disabled:opacity-25"
+                id="applyButton">Apply</button>
+            </div>
+            <div id="purchaseEntry"></div>
+            <br>
+            <hr>
+            <div>
+              <p class="font-semibold mb-2">Total price: <span id="totalPrice">00</span> </p>
+              <p class="font-semibold mb-2">Discount : <span id="discountPrice">00</span> </p>
+              <p class="font-semibold">Total: <span id="inTotal">00</span> </p>
+              <button id="makePayment" onclick="my_modal_1.showModal()"
+                class="bg-[#E527B2] mx-3 mt-3 mb-4 w-11/12 px-8 py-2 text-white rounded-lg  hover:bg-red-600 disabled:opacity-25 "
+                disabled>Make Purchase</button>
+              <!-- Modal -->
+              <!-- Open the modal using ID.showModal() method -->
+              <dialog id="my_modal_1" class="modal">
+                <form method="dialog" class="modal-box">
+                  <figure><img class="mx-auto" src="images/congo.png" alt=""></figure>
+                  <h3 class="font-extrabold text-center text-lg">Congratulations</h3>
+                  <p class="py-4 text-center">Your Purchase the product</p>
+                  <div class="modal-action">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button id="goHomeButton"
+                      class="bg-[#E527B2] px-5 py-2 text-white rounded-lg hover:bg-red-600 mx-auto ">Go Home</button>
+                  </div>
+                </form>
+              </dialog>
+              <!-- modal  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="js/shared.js"></script>
+  <script src="js/one.js"></script>
+  <script src="js/two.js"></script>
+  <script src="js/three.js"></script>
+  <script src="js/four.js"></script>
+  <script src="js/five.js"></script>
+  <script src="js/six.js"></script>
+  <script src="js/seven.js"></script>
+  <script src="js/eight.js"></script>
+  <script src="js/nine.js"></script>
+  <script src="js/modal.js"></script>
+  <script>
+
+  </script>
+</body>
+
+</html>
